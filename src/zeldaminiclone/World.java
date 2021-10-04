@@ -35,9 +35,9 @@ public class World {
 		return true;
 	}
 	
-	public void render(Graphics graph) {
+	public void render(Graphics g) {
 		for(int i = 0; i < blocos.size(); i++) {
-			blocos.get(i).render(graph);
+			blocos.get(i).render(g);
 		}
 	}
 
